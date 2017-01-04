@@ -1,7 +1,7 @@
 aproba
 ======
 
-This is the same as the `aproba` module except modified to not use `Error.captureStackTrace` which doesn't work in browsers.
+This is the same as the `aproba` module except modified to not use `Error.captureStackTrace` which doesn't work in browsers.  Admittedly, the trace gets some extraneous stuff, but I don't know a better way.
 
 - - -
 
