@@ -15,7 +15,7 @@ var types = {
   E: ['error', function (thingy) { return thingy instanceof Error }]
 }
 
-var validate = module.exports = function (schema, args) {
+module.exports = function (schema, args) {
   if (!schema) throw missingRequiredArg(0, 'schema')
   if (!args) throw missingRequiredArg(1, 'args')
   if (!types.S[1](schema)) throw invalidType(0, 'string', schema)
@@ -57,6 +57,5 @@ function tooManyArgs (expected, got) {
 function newException (code, msg) {
   var e = new Error(msg)
   e.code = code
-  Error.captureStackTrace(e, validate)
   return e
 }
