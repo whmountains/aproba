@@ -8,7 +8,7 @@ This is the same as the `aproba` module except modified to not use `Error.captur
 A ridiculously light-weight function argument validator
 
 ```
-var validate = require("aproba")
+var validate = require("aproba-browser")
 
 function myfunc(a, b, c) {
   // `a` must be a string, `b` a number, `c` a function
