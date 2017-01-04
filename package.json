@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iarna/aproba"
+    "url": "https://github.com/whmountains/aproba"
   },
   "keywords": [
     "argument",
@@ -28,7 +28,7 @@
   "author": "Rebecca Turner <me@re-becca.org>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iarna/aproba/issues"
+    "url": "https://github.com/whmountains/aproba/issues"
   },
-  "homepage": "https://github.com/iarna/aproba"
+  "homepage": "https://github.com/whmountains/aproba"
 }
