@@ -1,6 +1,10 @@
 aproba
 ======
 
+This is the same as the `aproba` module except modified to not use `Error.captureStackTrace` which doesn't work in browsers.
+
+- - -
+
 A ridiculously light-weight function argument validator
 
 ```
@@ -49,11 +53,10 @@ I wanted a very simple argument validator. It needed to do two things:
 2. Not encourage an infinite bikeshed of DSLs
 
 This is why types are specified by a single character and there's no such
-thing as an optional argument. 
+thing as an optional argument.
 
 This is not intended to validate user data. This is specifically about
 asserting the interface of your functions.
 
 If you need greater validation, I encourage you to write them by hand or
 look elsewhere.
-
